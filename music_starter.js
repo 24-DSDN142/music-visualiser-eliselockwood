@@ -114,7 +114,7 @@ ellipse (390, 240, circlesize, circlesize)
 
 }  else if (seconds < 140) { // changes on passion (heart)
 
-let circlesize = map (drum, 0, 40, 45, 60) 
+let circlesize = map (other, 0, 40, 45, 60) 
 //last (fifth) scene
 // heart of circles relating to the last lyrics - passion / symbol heart 
 
