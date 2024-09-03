@@ -100,7 +100,7 @@ ellipse (1200, 850, circlesize, circlesize)
 ellipse (1400, 850, circlesize, circlesize)
 
 
-}  else if (seconds < 100) { 
+}  else if (seconds < 12) {  100
  //top flower (main flower) 'third scene repeated'
 let circlesize = map (drum, 0, 120, 40, 390)
 ellipse (220, 190, circlesize, circlesize)
@@ -112,9 +112,9 @@ ellipse (510, 125, circlesize, circlesize)
 ellipse (390, 240, circlesize, circlesize)
 
 
-}  else if (seconds < 140) { // changes on passion (heart)
+}  else if (seconds < 100) { // changes on passion (heart)
 
-let circlesize = map (other, 0, 40, 45, 60) 
+let circlesize = map (vocal, 0, 40, 45, 70) 
 //last (fifth) scene
 // heart of circles relating to the last lyrics - passion / symbol heart 
 
@@ -129,6 +129,18 @@ let circlesize = map (other, 0, 40, 45, 60)
   ellipse (700, 700, circlesize, circlesize) //below right middle medium
   ellipse (600, 850, circlesize, circlesize) //bottom of heart circle/point
   
+
+
+}  else if (seconds < 200) { //speaking - Billy Joel to finish
+ellipse (200, 200, 200, 200)
+ellipse (500, 200, 200, 200)
+
+let eyeSize = map (drumn, 0, 100, 70, 22)
+ellipse (200, 200, eyeSize, eyeSize)
+ellipse (500, 200, eyeSize, eyeSize)
+
+let mouthSize = map (drumn, 0, 100, 60, 35)
+rect (350, 500, 200, mouthSize)
 
 }
 }
