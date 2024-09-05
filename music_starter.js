@@ -15,8 +15,8 @@ text(seconds + " seconds", canvasWidth * 0.1, canvasHeight * 0.1);
 
 
 // }  
-if (seconds < 5) { //thirthen scene 139
-  let rectanglesize = map (other, 0, 20, 40, 90)
+if (seconds < 8) { 
+  let rectanglesize = map (bass, 0, 20, 40, 90)
   rect (200, 650, rectanglesize, rectanglesize)
   rect (400, 650, rectanglesize, rectanglesize)
   rect (600, 650, rectanglesize, rectanglesize)
@@ -25,15 +25,15 @@ if (seconds < 5) { //thirthen scene 139
 
 
 //   // first row of circles - 'second scene'
-// }  else if (seconds < 16) { 
-//   let circlesize = map (other, 0, 20, 4, 50)
-//   ellipse (200, 600, circlesize, circlesize)
-//   ellipse (400, 600, circlesize, circlesize)
-//   ellipse (600, 600, circlesize, circlesize)
-//   ellipse (800, 600, circlesize, circlesize)
-//   ellipse (1000,600, circlesize, circlesize)
+}  else if (seconds < 16) { 
+  let circlesize = map (other, 0, 20, 4, 50)
+  ellipse (200, 600, circlesize, circlesize)
+  ellipse (400, 600, circlesize, circlesize)
+  ellipse (600, 600, circlesize, circlesize)
+  ellipse (800, 600, circlesize, circlesize)
+  ellipse (1000,600, circlesize, circlesize)
 
-}  else if (seconds < 10) { 
+}  else if (seconds < 28) { 
 // top flower 'first scene'
 let circlesize = map (vocal, 0, 120, 40, 390)
 ellipse (220, 190, circlesize, circlesize)
@@ -44,12 +44,12 @@ ellipse (540, 300, circlesize, circlesize)
 ellipse (510, 125, circlesize, circlesize)
 ellipse (390, 240, circlesize, circlesize) //middle circle
 
-// let line = map (drum, 0, 12, 40, 39)
-// line(390, 240, 390, drum) //frist clock hand
-// line (390, 240, 390, drum) //second clock hand
+line(390, 240, 390, 180) //frist clock hand
+line (490, 240, 390, 240) //second clock hand 
 
 
-}  else if (seconds < 50) { 
+
+}  else if (seconds < 35) { 
 //top flower (main flower) 'third scene repeated'
 let circlesize = map (drum, 0, 120, 40, 390)
 ellipse (220, 190, circlesize, circlesize)
@@ -64,7 +64,7 @@ ellipse (390, 240, circlesize, circlesize)
 
 
 // second row of circles - 'fourth scene'
-}  else if (seconds < 50) { 
+}  else if (seconds < 45) { 
 let circlesize = map (other, 0, 20, 4, 50)
 ellipse (200, 350, circlesize, circlesize)
 ellipse (400, 350, circlesize, circlesize)
@@ -80,7 +80,7 @@ ellipse (1100, 750, circlesize, circlesize)
 
 
 
-} else if (seconds < 40) {//70
+} else if (seconds < 50) {//70
 // fifth scene (lots of dots scene)
 let circlesize = map (other, 0, 25, 4, 20)
 //top row of circles
@@ -156,7 +156,7 @@ ellipse (1000,850, circlesize, circlesize)
 ellipse (1200, 850, circlesize, circlesize)
 ellipse (1400, 850, circlesize, circlesize)
 
-} else if (seconds < 55) {//70
+} else if (seconds < 57) {//70
 // sixth scene (lots of dots scene)
 let circlesize = map (other, 0, 20, 4, 50)
 //top row of circles
@@ -232,34 +232,9 @@ ellipse (1400, 850, circlesize, circlesize)
 
 
 
-} else if (seconds < 60) {//
- // top flower 'first scene'
-let circlesize = map (vocal, 0, 120, 40, 390)
-ellipse (220, 190, circlesize, circlesize)
-ellipse (335, 90, circlesize, circlesize)
-ellipse (420, 390, circlesize, circlesize)
-ellipse (270, 350, circlesize, circlesize)
-ellipse (540, 300, circlesize, circlesize)
-ellipse (510, 125, circlesize, circlesize)
-ellipse (390, 240, circlesize, circlesize)
-
-
-
-}  else if (seconds < 25) { 
-//top flower (main flower) 'third scene repeated'
-let circlesize = map (drum, 0, 120, 40, 390)
-ellipse (220, 190, circlesize, circlesize)
-ellipse (335, 90, circlesize, circlesize)
-ellipse (420, 390, circlesize, circlesize)
-ellipse (270, 350, circlesize, circlesize)
-ellipse (540, 300, circlesize, circlesize)
-ellipse (510, 125, circlesize, circlesize)
-ellipse (390, 240, circlesize, circlesize)
-
-
 // second row of circles - 'fourth scene'
-}  else if (seconds < 30) { 
-let circlesize = map (other, 0, 20, 4, 50)
+}  else if (seconds < 60) { 
+let circlesize = map (counter, 0, 20, 4, 50) //was other got white screen??
 ellipse (200, 350, circlesize, circlesize)
 ellipse (400, 350, circlesize, circlesize)
 ellipse (600, 350, circlesize, circlesize)
@@ -274,7 +249,7 @@ ellipse (1100, 750, circlesize, circlesize)
 
 
 
-} else if (seconds < 40) {//70
+} else if (seconds < 70) {//70
 // fifth scene (lots of dots scene)
 let circlesize = map (other, 0, 25, 4, 20)
 //top row of circles
@@ -350,7 +325,7 @@ ellipse (1000,850, circlesize, circlesize)
 ellipse (1200, 850, circlesize, circlesize)
 ellipse (1400, 850, circlesize, circlesize)
 
-}  else if (seconds < 65) { //eighth scene
+}  else if (seconds < 79) { //eighth scene
   ellipse (200, 200, 200, 200)
   ellipse (500, 200, 200, 200)
   
@@ -362,7 +337,7 @@ ellipse (1400, 850, circlesize, circlesize)
   rect (350, 500, 200, mouthSize)
   
 
-}  else if (seconds < 70) { //ninth
+}  else if (seconds < 100) { //ninth
   let circlesize = map (other, 0, 20, 4, 50)
   ellipse (200, 350, circlesize, circlesize)
   ellipse (400, 350, circlesize, circlesize)
@@ -370,17 +345,6 @@ ellipse (1400, 850, circlesize, circlesize)
   ellipse (800, 350, circlesize, circlesize)
   ellipse (1000,350, circlesize, circlesize)
 
-
-}  else if (seconds < 101) { 
- //top flower (main flower) 'tenth scene repeated'
-let circlesize = map (drum, 0, 120, 40, 390)
-ellipse (220, 190, circlesize, circlesize)
-ellipse (335, 90, circlesize, circlesize)
-ellipse (420, 390, circlesize, circlesize)
-ellipse (270, 350, circlesize, circlesize)
-ellipse (540, 300, circlesize, circlesize)
-ellipse (510, 125, circlesize, circlesize)
-ellipse (390, 240, circlesize, circlesize)
 
 
 }  else if (seconds < 115) { // changes on passion (heart)
