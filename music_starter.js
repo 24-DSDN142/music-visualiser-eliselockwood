@@ -9,7 +9,7 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
   let seconds = Math.floor(counter / 60); // divides the counter by the amount of times it ticks per second
 
   textSize(30);
-text(seconds + " seconds", canvasWidth * 0.1, canvasHeight * 0.1);
+// text(seconds + " seconds", canvasWidth * 0.1, canvasHeight * 0.1);
 
 if (seconds < 8) { // SCENE 1
   let rectanglesize = map (other, 0, 20, 40, 90)
